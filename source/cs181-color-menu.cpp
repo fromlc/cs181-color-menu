@@ -41,6 +41,8 @@ int main()
         cout << FG_CYAN;
     else if (choice == 'W')
         cout << FG_WHITE;
+    else
+        cout << "Sorry, I don't know that color.\n";
 
     // show new console text color
     cout << "Goodbye!\n";
