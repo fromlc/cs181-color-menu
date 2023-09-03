@@ -24,6 +24,7 @@ int main()
     
     cout << "R)ed, G)reen, Y)ellow, B)lue, M)agenta, C)yan, W)hite? ";
     cin >> choice;
+    choice = toupper(choice);
 
     // set console color to user's choice
     if (choice == 'R')
