@@ -20,7 +20,7 @@ int main() {
 
     char choice;
 
-    // display menu until user quits
+// infinite loop! displays menu until user quits
     while (true)
     {
         // get user color choice in uppercase
@@ -28,7 +28,7 @@ int main() {
         cin >> choice;
         choice = toupper(choice);
 
-        // terminate app on user quit
+// break out of loop on user quit
         if (choice == 'Q')
             break;
 
